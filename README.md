@@ -1,10 +1,45 @@
-# FIXME Tutorial Name
+# First steps
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-FIXME description about the Tutorial
+Recently I just got a new logic board that required that I set up everything anew -- doing this meant that I had the opportunity to set everything up and document the steps I did.
 
-**Time/Date:** FIXME
+**Time/Date:** 
+January 28, 2022
+
+Machine type:
+
+1. Install homebrew. 
+2. Get wget
+3. Install Miniconda
+
+## Install Home Brew
+
+Now this has happened a number of times, I hope to have learned my lesson.  I use Dropbox to keep all my files in a cloud accessible and hence- platform ignorant manner.   I don't have to remember what I did.
+
+This time, therefore, I navigated to my *teams* space.  
+
+**`Scitechcon`** is my company name - short for **`Science and Technology Consulting, Inc.`**
+
+
+```bash
+Last login: Fri Jan 28 13:20:52 on ttys000
+annedeslattesmays@Annes-MacBook-Pro ~ % cd ~/Scitechcon\ Dropbox/Anne\ DeslattesMays 
+annedeslattesmays@Annes-MacBook-Pro Anne DeslattesMays % ls -l
+```
+
+Google it "get homebrew mac" 
+
+You will end up here **`brew.sh`**
+
+Copy the line at the middle of the page.
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Now get to work
+
 
 ## Contributing :hearts:
 - If you like it, leave your star in this project :star2:
